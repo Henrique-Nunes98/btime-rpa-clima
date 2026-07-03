@@ -1,0 +1,2 @@
+source,city,country,temperature_c,feels_like_c,condition,humidity_percent,wind_kmh,pressure_hpa,reference_time,collected_at
+api_open_meteo,São Paulo,Brasil,23.0,22.3,Céu limpo,51,9.3,1019.5,2026-07-02T17:00,2026-07-02T17:02:15-03:00
