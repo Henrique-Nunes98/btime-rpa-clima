@@ -19,7 +19,7 @@ btime-rpa-clima/
 ├── collect_scraping.py   # coleta pelo site
 ├── collect_api.py        # coleta pela API
 ├── common.py             # colunas do CSV + função pra salvar
-├── data/                 # CSVs gerados (exemplos versionados)
+├── data/                 # CSVs gerados ao rodar os scripts (não versionados)
 ├── tests/
 ├── requirements.txt
 └── README.md
@@ -72,7 +72,7 @@ pytest
 
 ## Observações
 
-- Os arquivos em `data/` são exemplos e são sobrescritos a cada execução.
+- Os CSVs são gravados em `data/` ao rodar os scripts e são sobrescritos a cada execução (a pasta fica versionada, os arquivos não).
 - Se o site bloquear o acesso ou mudar o layout, o scraping avisa o erro e
   encerra sem quebrar. A parte de parsing fica no `collect_scraping.py`, então
   é lá que se ajusta se o HTML mudar.

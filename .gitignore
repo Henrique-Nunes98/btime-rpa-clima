@@ -4,3 +4,6 @@ __pycache__/
 .pytest_cache/
 .env
 .DS_Store
+
+# CSVs gerados pelos scripts (a pasta é mantida pelo .gitkeep)
+data/*.csv

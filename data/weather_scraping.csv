@@ -1,2 +1,0 @@
-source,city,country,temperature_c,feels_like_c,condition,humidity_percent,wind_kmh,pressure_hpa,reference_time,collected_at
-scraping_timeanddate,São Paulo,Brasil,18.3,18.3,Parcialmente nublado,73,9.7,1018.2,exemplo_local,2026-07-02T09:00:00-03:00
